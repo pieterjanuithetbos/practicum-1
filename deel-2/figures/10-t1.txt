@@ -1,0 +1,6 @@
+>> hold on
+>> plot(xplot, ans)
+>> xlabel("Benaderingsinterval [0, 1]")
+>> ylabel("functiewaarden")
+>> ylabel("Functiewaarden")
+>> legend("data", "splinebenadering")
