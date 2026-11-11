@@ -1,6 +1,6 @@
 
 function opgave11
-load("/home/pjuithetbos/git/practicum-1/exercise10.mat")
+load("exercise10.mat")
 t = t1;
 xplot = (0:0.05:1);
 ans2 = kkb_spline(t, x, y, xplot, 3);
