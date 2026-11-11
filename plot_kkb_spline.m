@@ -25,8 +25,8 @@ scatter(x, f);
 hold on 
 plot(xplot, b)
 % scatter(t, zeros(size(t)), 'o', 'LineWidth',2)
-legend('discrete data', 'kkb splinebenadering')
-xlabel(sprintf('Benaderingsinterval [%d,%d], k = %d', t_0, t_n, k))
-ylabel('Functiewaarde')
+legend('discrete data', 'kkb splinebenadering', 'FontSize', 14)
+xlabel(sprintf('Benaderingsinterval [%d,%d], k = %d', t_0, t_n, k), 'FontSize', 14)
+ylabel('Functiewaarde', 'FontSize', 14)
 hold off
 end

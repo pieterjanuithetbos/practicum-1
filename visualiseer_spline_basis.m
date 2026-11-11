@@ -40,9 +40,10 @@ function visualiseer_spline_basis(t)
         labels{i} = sprintf('N_{%d,%d}', -k-1+i, k+1);
         hold on;
     end
-    legend(labels)
+    legend(labels,'FontSize', 14)
     xlabel("Benaderingsinterval [0, 1]")
     ylabel("B-splinefunctie")
+
 
     % print extra info en controles
     disp(ext_t)

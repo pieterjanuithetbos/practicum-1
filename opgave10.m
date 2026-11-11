@@ -1,5 +1,5 @@
 
-functie = @(x) x.^2;
+functie = @(x) sin(x);
 t = (0:1:5);
 R = 10;
 k = 3;
